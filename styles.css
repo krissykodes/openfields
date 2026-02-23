@@ -96,8 +96,9 @@ p {
 .hero h1 {
   font-size: clamp(2.1rem, 5vw, 4rem);
   line-height: 1.06;
-  color: rgba(15, 16, 18, 0.95);
+  color: #ffffff;
   text-wrap: balance;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
 }
 
 .hero-actions {
