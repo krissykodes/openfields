@@ -293,6 +293,15 @@ p {
   gap: 12px;
 }
 
+.hubspot-form-wrap {
+  display: block;
+}
+
+.hubspot-form-wrap .hs-form-frame {
+  width: 100%;
+  min-height: 220px;
+}
+
 .waitlist-form input,
 .waitlist-form textarea {
   width: 100%;
