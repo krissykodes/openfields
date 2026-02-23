@@ -159,15 +159,8 @@ p {
   text-wrap: balance;
 }
 
-.mission p {
-  margin-top: 26px;
-  text-align: center;
-  color: var(--muted);
-  font-size: clamp(1rem, 1.2vw, 1.35rem);
-}
-
 .mission hr {
-  margin: 58px 0 56px;
+  margin: 58px 0 42px;
   border: 0;
   border-top: 1px solid var(--line);
 }
@@ -176,16 +169,8 @@ p {
   text-align: center;
 }
 
-.data-block h3 {
-  font-family: "Instrument Sans", sans-serif;
-  font-size: clamp(2rem, 3vw, 3rem);
-  line-height: 1.2;
-  font-weight: 500;
-  color: #2d3034;
-}
-
 .map-card {
-  margin-top: 28px;
+  margin-top: 0;
   display: block;
   border-radius: 6px;
   border: 1px solid #bbbfc8;
@@ -193,52 +178,8 @@ p {
   height: min(56vw, 440px);
   min-height: 280px;
   position: relative;
-  background:
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.08), rgba(20, 22, 26, 0.2)),
-    radial-gradient(circle at 35% 35%, #dbdde1 0%, #bfc2ca 35%, #a6abb4 100%);
-}
-
-.map-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(
-      to right,
-      transparent 0%,
-      transparent 18%,
-      rgba(70, 73, 80, 0.3) 18.2%,
-      transparent 18.4%,
-      transparent 35%,
-      rgba(70, 73, 80, 0.24) 35.2%,
-      transparent 35.4%,
-      transparent 58%,
-      rgba(70, 73, 80, 0.24) 58.2%,
-      transparent 58.4%,
-      transparent 78%,
-      rgba(70, 73, 80, 0.24) 78.2%,
-      transparent 78.4%
-    ),
-    repeating-linear-gradient(
-      to right,
-      rgba(115, 119, 129, 0.22) 0 1px,
-      transparent 1px 34px
-    ),
-    repeating-linear-gradient(
-      to bottom,
-      rgba(115, 119, 129, 0.22) 0 1px,
-      transparent 1px 32px
-    );
-  opacity: 0.65;
-}
-
-.map-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(100% 60% at 0% 96%, rgba(31, 34, 38, 0.45), rgba(31, 34, 38, 0) 56%),
-    radial-gradient(100% 60% at 100% 96%, rgba(31, 34, 38, 0.45), rgba(31, 34, 38, 0) 56%);
+  background: #d8dbe0;
+  box-shadow: 0 8px 26px rgba(23, 26, 31, 0.08);
 }
 
 .map-overlay {
@@ -246,6 +187,14 @@ p {
   inset: 0;
   display: grid;
   place-items: center;
+}
+
+.map-preview {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .map-tooltip {
