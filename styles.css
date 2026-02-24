@@ -215,6 +215,8 @@ p {
 
 .map-preview-video {
   background: #111318;
+  object-fit: contain;
+  object-position: center bottom;
 }
 
 .map-tooltip {
