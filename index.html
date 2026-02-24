@@ -50,9 +50,17 @@
               rel="noopener noreferrer"
               aria-label="Open interactive data page"
             >
-              <div class="map-overlay map-overlay--placeholder">
-                <p>Interactive field-level data preview coming soon</p>
-              </div>
+              <video
+                class="map-preview map-preview-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                aria-hidden="true"
+              >
+                <source src="./data-preview-demo.mp4" type="video/mp4" />
+              </video>
             </a>
           </div>
         </div>

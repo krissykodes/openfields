@@ -213,6 +213,10 @@ p {
   object-position: center center;
 }
 
+.map-preview-video {
+  background: #111318;
+}
+
 .map-tooltip {
   position: relative;
   z-index: 2;
