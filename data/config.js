@@ -14,6 +14,6 @@ window.OPENFIELDS_DATA_CONFIG = {
     defaultCenter: [-98.5795, 39.8283]
   },
   cta: {
-    dataPageUrl: "https://your-vercel-data-page.vercel.app"
+    dataPageUrl: "https://app.openfields.ai/"
   }
 };
